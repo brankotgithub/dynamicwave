@@ -1,0 +1,11 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+
+.custom_menu {
+    position: sticky;
+    top: 0;
+    z-index: 100; /* You can adjust the z-index as needed */
+    /* Additional styling for your menu */
+    
+}</style>
+<!-- end Simple Custom CSS and JS -->

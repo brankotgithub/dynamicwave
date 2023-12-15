@@ -1,0 +1,19 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+ div.wpforms-container-full input[type="text"],
+div.wpforms-container-full input[type="email"],
+div.wpforms-container-full input[type="password"],
+div.wpforms-container-full input[type="number"],
+div.wpforms-container-full input[type="date"],
+div.wpforms-container-full input[type="submit"],
+div.wpforms-container-full input[type="button"],
+div.wpforms-container-full textarea {
+  border-radius: 35px;
+  /* Other styling properties as needed */
+}
+
+div.wpforms-container-full button[type="submit"]:not(:hover):not(:active){
+  background-color: red;
+  /* Other styling properties as needed */
+}</style>
+<!-- end Simple Custom CSS and JS -->

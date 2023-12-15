@@ -1,0 +1,31 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* CSS for Animation */
+.info-phone animation, .info-address animation, .info-email animation{
+  opacity: 0; /* Initially hide the paragraph */
+}
+
+/* Animation */
+@keyframes slide-top {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply Animation to the Element */
+.animation {
+  animation: slide-top 2s ease-in-out;
+  animation-fill-mode: forwards; /* Keeps the last keyframe state */
+}
+
+.info-phone.animation:hover,
+.info-address.animation:hover,
+.info-email.animation:hover {
+  color: red; /* Change color on hover */
+}</style>
+<!-- end Simple Custom CSS and JS -->
